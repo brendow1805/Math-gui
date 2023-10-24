@@ -11,19 +11,25 @@ while True:
     print('2.Tabuada')
     print('3.Sair')
 # Entrada
-num = int(input('Informe um número: '))
 
-op = int(input('opção:'))
+    op = int(input('opção:'))
 #Processamento
 #for cont in range(1, num+1):
  #   fat *= cont
-if op == 1:
-fat = gera_fatorial(num)
+    if op == 1:
+        num = int(input('\nInforme um número: '))
+        fat = gera_fatorial(num)
 #Saída
-print(f'{num}! = {fat}')
+        print(f'{num}! = {fat}')
 
-elif op == 2:
-
+    elif op == 2:
+        num = int(input('\nInforme um número: '))
+        print(gerar_tabuada(num))
+    elif op == 3:
+        print('\nBye')
+        break
+    else:
+        print('\ninvalido')
 
 
 

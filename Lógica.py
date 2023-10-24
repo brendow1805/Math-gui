@@ -10,5 +10,5 @@ def gera_fatorial(valor):
         return 1
 
 def gerar_tabuada(valor):
-    for cont in range(0,10):
+    for cont in range(1,11):
          print(f'{cont} X {valor} = {cont * valor}')
